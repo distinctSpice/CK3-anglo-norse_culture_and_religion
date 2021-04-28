@@ -147,16 +147,16 @@ l_english:
  norse_pagan_old_adherent:0 "Old Ásatrúan"
  norse_pagan_old_adherent_plural:0 "Old Ásatrúans"
 
- englisc_norse_pagan:0 "Bretlandic Ásatrú"
- englisc_norse_pagan_adj:0 "Bretlandic Ásatrú"
- englisc_norse_pagan_adherent:0 "Bretlandic Ásatrúan"
- englisc_norse_pagan_adherent_plural:0 "Bretlandic Ásatrúans"
- englisc_norse_pagan_desc:0 "This method is not implemented."
+ englisc_norse_pagan:0 "Ænglandic Ásatrú"
+ englisc_norse_pagan_adj:0 "Ænglandic Ásatrú"
+ englisc_norse_pagan_adherent:0 "Ænglandic Ásatrúan"
+ englisc_norse_pagan_adherent_plural:0 "Ænglandic Ásatrúans"
+ englisc_norse_pagan_desc:0 "The Ænglandic Norse is different from their cousins in Scandinavia: in order to survive and prolong their new conquests, instead of by the sword, they sought to integrate further with the locals culturally and spiritually. While still retaining the warlike zeal of the Norse faith, they now focus on building their bonds with their new neighbors."
 
- englisc_norse_pagan_old:0 "Old Bretlandic Ásatrú"
- englisc_norse_pagan_old_adj:0 "Old Bretlandic Ásatrú"
- englisc_norse_pagan_old_adherent:0 "Old Bretlandic Ásatrúan"
- englisc_norse_pagan_old_adherent_plural:0 "Old Bretlandic Ásatrúans"
+ englisc_norse_pagan_old:0 "Old Ænglandic Ásatrú"
+ englisc_norse_pagan_old_adj:0 "Old Ænglandic Ásatrú"
+ englisc_norse_pagan_old_adherent:0 "Old Ænglandic Ásatrúan"
+ englisc_norse_pagan_old_adherent_plural:0 "Old Ænglandic Ásatrúans"
 
  #Baltic
  baltic_religion:1 "Baltic"
