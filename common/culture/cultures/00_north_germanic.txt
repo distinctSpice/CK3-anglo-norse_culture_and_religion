@@ -3,11 +3,9 @@
 	graphical_cultures = {
 		norse_unit_gfx
 		western_coa_gfx
-		western_building_gfx
 		fp1_norse_clothing_gfx
 		northern_clothing_gfx
 		northern_unit_gfx
-		norse_building_gfx
 		}
 
 	mercenary_names = {
@@ -22,7 +20,8 @@
 	norse = {
 		graphical_cultures = {
 			norse_coa_gfx
-			
+			norse_building_gfx
+			western_building_gfx
 		}
 		
 		color = { 0.3 0.55 0.8 }
@@ -259,6 +258,8 @@
 	
 		graphical_cultures = {
 			swedish_coa_gfx
+			norse_building_gfx
+			western_building_gfx
 		}
 		
 		color = { 0.25 0.5 0.75 }
@@ -517,6 +518,8 @@
 	norwegian = {
 		graphical_cultures = {
 			norwegian_coa_gfx
+			norse_building_gfx
+			western_building_gfx
 		}
 		
 		color = { 210 150 255 }
@@ -825,6 +828,8 @@
 	
 		graphical_cultures = {
 			danish_coa_gfx
+			norse_building_gfx
+			western_building_gfx
 		}
 		
 		color = { 0.15 0.4 0.55 }
@@ -949,6 +954,7 @@
 	englisc = {
 		graphical_cultures = {
 			anglo_saxon_coa_gfx
+			western_building_gfx
 		}
 		color = { 0.4 0.5 0.7 }
 

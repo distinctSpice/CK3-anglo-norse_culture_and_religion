@@ -1,59 +1,68 @@
 ﻿l_english:
 
  # Culture
- englisc:0 "Englisc"
- englisc_collective_noun:0 "Englisc"
+ englisc:0 "Ænglisk"
+ englisc_collective_noun:0 "Ænglisk"
 
  # Events
- ## Embrace Englisc Culture
+ ## Embrace Ænglisk Culture
  british_isles.2011.t:0 "[embracer_former_culture.GetNameNoTooltip|U] no More"
- british_isles.2011.desc:0 "The time when we [embracer.GetCulture.GetCollectiveNounNoTooltip] considered Scandinavia our homeland has long since passed. Our children are born here, surrounded by Saxons, and to them, Scandinavia will only ever be a blurred line beyond the misty shores of Britannia.\n\nAnd, as we make some of the local customs our own, so too the legacy of our culture spreads throughout the Saxon lands, giving birth to a new Englisc identity."
- british_isles.2011.a:0 "Long live the Englisc!"
+ british_isles.2011.desc:0 "The time when we [embracer.GetCulture.GetCollectiveNounNoTooltip] considered Scandinavia our homeland has long since passed. Our children are born here, surrounded by Saxons, and to them, Scandinavia will only ever be a blurred line beyond the misty shores of Britannia.\n\nAnd, as we make some of the local customs our own, so too the legacy of our culture spreads throughout the Saxon lands, giving birth to a new Ænglisk identity."
+ british_isles.2011.a:0 "Long live the Ænglisk!"
 
- british_isles.2012.desc:0 "The [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], [embracer.GetHerHis] vassals, and [embracer.GetHerHis] whole family has heeded the call of England and embraced Englisc culture."
+ british_isles.2012.desc:0 "The [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], [embracer.GetHerHis] vassals, and [embracer.GetHerHis] whole family has heeded the call of England and embraced Ænglisk culture."
  british_isles.2012.a:0 "It was only a matter of time."
  british_isles.2012.b:0 "Traitors!"
 
  # Religion
  ## Tenets
  tenet_englisc_norse_pagan_reformation_name:0 "The [GetPlayer.GetFaith.GetAdjectiveNoTooltip]-Christian Reforms"
- tenet_englisc_norse_pagan_reformation_desc:0 "Jesus of Nazareth's teachings of compassion and love reminded the Ænglandic Norse of their fallen god Baldr. Thus was he made in the aspect of the Aesir god, who knew Loki's planned treachery, yet did not prevent it, for he made a pact with Hel to allow her to take a part of him in exchange of freeing humans from Helheim. The reforms also adopted some Christian traditions, and the more violent nature of the old faith was replaced by teachings of compassion and forgiveness."
+ tenet_englisc_norse_pagan_reformation_desc:0 "Jesus of Nazareth's teachings of compassion and love reminded the Norse of the fallen god Baldr. Thus was he made in an aspect of the Aesir, one that knew Loki's planned treachery, yet did not prevent it, for he made a pact with Hel to allow her to take a part of him in exchange of freeing mankind from Helheim. The new faith adopted some Christian traditions including baptism and penance, while the more violent nature of the old faith was replaced by teachings of compassion and forgiveness."
 
  ## Holy Sites
  holy_site_AN_jorvik_name:0 "Jorvik"
- holy_site_AN_jorvik_effect_name:0 "From [holy_site|E] #weak ($holy_site_jorvik_name$)#!"
+ holy_site_AN_jorvik_effect_name:0 "From [holy_site|E] #weak ($holy_site_AN_jorvik_name$)#!"
  holy_site_AN_orkneyjar_name:0 "Orkneyjar"
- holy_site_AN_orkneyjar_effect_name:0 "From [holy_site|E] #weak ($holy_site_orkneyjar_name$)#!"
+ holy_site_AN_orkneyjar_effect_name:0 "From [holy_site|E] #weak ($holy_site_AN_orkneyjar_name$)#!"
  holy_site_AN_mon_name:0 "Mon"
- holy_site_AN_mon_effect_name:0 "From [holy_site|E] #weak ($holy_site_mon_name$)#!"
+ holy_site_AN_mon_effect_name:0 "From [holy_site|E] #weak ($holy_site_AN_mon_name$)#!"
  holy_site_AN_dyflin_name:0 "Dyflin"
- holy_site_AN_dyflin_effect_name:0 "From [holy_site|E] #weak ($holy_site_dyflin_name$)#!"
+ holy_site_AN_dyflin_effect_name:0 "From [holy_site|E] #weak ($holy_site_AN_dyflin_name$)#!"
  holy_site_AN_reykjavik_name:0 "Reykjavik"
- holy_site_AN_reykjavik_effect_name:0 "From [holy_site|E] #weak ($holy_site_reykjavik_name$)#!"
+ holy_site_AN_reykjavik_effect_name:0 "From [holy_site|E] #weak ($holy_site_AN_reykjavik_name$)#!"
  
  ## Base Religion
- englisc_norse_pagan:0 "Ænglandic Ásatrú"
- englisc_norse_pagan_adj:0 "Ænglandic Ásatrú"
- englisc_norse_pagan_adherent:0 "Ænglandic Ásatrúan"
- englisc_norse_pagan_adherent_plural:0 "Ænglandic Ásatrúans"
- englisc_norse_pagan_desc:0 "The Ænglandic Norse is different from their cousins in Scandinavia: in order to survive and prolong their new conquests, instead of by the sword, they sought to integrate further with the locals culturally and spiritually. While still retaining the warlike zeal of the Norse faith, they now focus on building their bonds with their new neighbors."
+ englisc_norse_pagan:0 "Ænglisk Ásatrú"
+ englisc_norse_pagan_adj:0 "Ænglisk Ásatrú"
+ englisc_norse_pagan_adherent:0 "Ænglisk Ásatrúan"
+ englisc_norse_pagan_adherent_plural:0 "Ænglisk Ásatrúans"
+ englisc_norse_pagan_desc:0 "The Ænglisk Norse is different from their cousins in Scandinavia: in order to survive in England, instead of by the sword, they sought to integrate further with the locals culturally and spiritually. While still retaining the warlike zeal of the Norse faith, they now focus on building their bonds with their new neighbors."
 
- englisc_norse_pagan_old:0 "Old Ænglandic Ásatrú"
- englisc_norse_pagan_old_adj:0 "Old Ænglandic Ásatrú"
- englisc_norse_pagan_old_adherent:0 "Old Ænglandic Ásatrúan"
- englisc_norse_pagan_old_adherent_plural:0 "Old Ænglandic Ásatrúans"
+ englisc_norse_pagan_old:0 "Old Ænglisk Ásatrú"
+ englisc_norse_pagan_old_adj:0 "Old Ænglisk Ásatrú"
+ englisc_norse_pagan_old_adherent:0 "Old Ænglisk Ásatrúan"
+ englisc_norse_pagan_old_adherent_plural:0 "Old Ænglisk Ásatrúans"
 
  # Decisions
- ## Embrace Englisc culture
- embrace_englisc_culture_decision:0 "Embrace Englisc Culture"
+ ## Embrace Ænglisk culture
+ embrace_englisc_culture_decision:0 "Embrace Ænglisk Culture"
  embrace_englisc_culture_decision_tooltip:1 "You will give up your [ROOT.Char.GetCulture.GetName] culture"
  embrace_englisc_culture_decision_desc:0 "My vassals, my family, and I have lived side by side with Saxons and Celts, and as our language and customs have mixed with theirs, it is time to embrace the fact that we have become one."
- embrace_englisc_culture_decision_get_innovations:0 "#D Englisc Culture gets a lot of Nordic innovations#!"
+ embrace_englisc_culture_decision_get_innovations:0 "#D Ænglisk Culture gets a lot of Nordic innovations#!"
  embrace_englisc_culture_decision_vassals_custom:0 "All vassals in Britannia"
- embrace_englisc_culture_decision_confirm:0 "Embrace Englisc Culture"
- decision_embrace_englisc_culture_get_innovations:0 "The Englisc [culture|E] gains several Nordic and Anglo-Saxon [innovations|E]"
+ embrace_englisc_culture_decision_confirm:0 "Embrace Ænglisk Culture"
+ decision_embrace_englisc_culture_get_innovations:0 "The Ænglisk [culture|E] gains several Nordic and Anglo-Saxon [innovations|E]"
 
  # Titles
  d_englisc_norse_pagan_reformed_article:0 "the"
- d_englisc_norse_pagan_reformed:0 "Bretland Fylkirate"
- d_englisc_norse_pagan_reformed_adj:0 "Bretland Norse"
+ d_englisc_norse_pagan_reformed:0 "Ænglisk Fylkirate"
+ d_englisc_norse_pagan_reformed_adj:0 "Ænglisk Norse"
+
+ # Cultural Names
+ ## Britannia
+ cn_bretland:0 "Bretland"
+ cn_bretland_adj:0 "Bretisk"
+
+ ## England
+ cn_englisc:0 "Ængland"
+ cn_englisc_adj:0 "Ænglisk"
