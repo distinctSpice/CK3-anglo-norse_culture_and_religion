@@ -1,0 +1,59 @@
+AN_jorvik = {
+    county = c_north_riding
+
+    character_modifier = {
+        name = holy_site_jorvik_effect_name
+	
+		# Since I there is no conversion bonus modifier yet,
+		# just increase the opinion of the following cultures
+		cultural_head_fascination_mult = 0.05
+		monthly_prestige_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.1
+    }
+}
+
+AN_orkneyjar = {
+    county = c_orkney
+
+    character_modifier = {
+        name = holy_site_orkneyjar_effect_name
+	
+        # Vikings settled Orkney, the Shetlands and the Faroe as farmers and fishermen, 
+        # though they go trade or raid in the summer
+		naval_movement_speed_mult = 0.2
+		embarkation_cost_mult = -0.25
+        supply_duration = 0.2
+    }
+}
+
+AN_mon = {
+    county = c_isle_of_man
+
+    character_modifier = {
+        name = holy_site_mon_effect_name
+        martial_per_prestige_level = 1
+        heavy_infantry_damage_mult = 0.05
+		knight_effectiveness_mult = 0.2
+    }
+}
+
+AN_dyflin = {
+    county = c_dublin
+
+    character_modifier = {
+        name = holy_site_dyflin_effect_name
+		monthly_piety_gain_mult = 0.1
+		martial_per_piety_level = 1
+    }
+}
+
+AN_reykjavik = {
+    county = c_vestisland
+
+    character_modifier = {
+        name = holy_site_reykjavik_effect_name
+        development_growth_factor = 0.1
+        stewardship_per_prestige_level = 1
+		men_at_arms_maintenance = -0.05
+    }
+}

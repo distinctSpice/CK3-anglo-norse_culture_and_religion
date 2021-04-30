@@ -1,0 +1,78 @@
+﻿embrace_englisc_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+
+	ai_check_interval = 36
+
+	desc = embrace_englisc_culture_decision_desc
+
+	is_shown = {
+		is_landed = yes
+		has_culture_group = culture_group:north_germanic_group
+		OR = {
+			OR = {
+				title:k_england = {
+					any_in_de_jure_hierarchy = {
+						root.primary_title = this
+					}
+				}
+				title:k_danelaw = {
+					any_in_de_jure_hierarchy = {
+						root.primary_title = this
+					}
+				}
+				title:k_daneland = {
+					any_in_de_jure_hierarchy = {
+						root.primary_title = this
+					}
+				}
+			}
+			root.primary_title = title:e_britannia
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:embrace_englisc_culture_decision
+			}
+		}
+	}
+
+	is_valid = {
+		custom_description = {
+			text = capital_in_england_region_tooltip
+			capital_province = {
+				geographical_region = custom_england
+			}
+		}
+		OR = {
+			has_title = title:k_england
+			has_title = title:k_danelaw
+			has_title = title:k_daneland
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+	}
+
+	effect = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:embrace_englisc_culture_decision
+		}
+		show_as_tooltip = {
+			embrace_englisc_culture_effect = yes
+		}
+
+		trigger_event = british_isles.2011
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

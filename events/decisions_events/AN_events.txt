@@ -1,0 +1,73 @@
+﻿##################################################
+# Embrace Englisc culture
+##################################################
+
+british_isles.2011 = {
+	type = character_event
+	title = british_isles.2011.t
+	desc = british_isles.2011.desc
+	theme = culture_change
+	left_portrait = {
+		character = scope:embracer
+		animation = personality_bold
+	}
+
+	immediate = {
+		save_scope_as = embracer
+		culture = { save_scope_as = embracer_former_culture }
+	}
+
+	option = {
+		name = british_isles.2011.a
+		embrace_englisc_culture_effect = yes
+		hidden_effect = { # Moved here from embrace_englisc_culture_decision
+			# Send event to other players
+			every_player = {
+				limit = {
+					NOT = { this = root }
+					OR = {
+						primary_title = {
+							OR = {
+								de_jure_liege = title:e_britannia
+								de_jure_liege.de_jure_liege = title:e_britannia
+								de_jure_liege.de_jure_liege.de_jure_liege = title:e_britannia
+							}
+						}
+						has_culture_group = culture_group:north_germanic_group
+						has_culture_group = culture_group:central_germanic_group
+						has_culture_group = culture_group:west_germanic_group
+						has_culture_group = culture_group:goidelic_group
+						has_culture_group = culture_group:brythonic_group
+						has_culture = culture:anglo_saxon
+					}
+				}
+				trigger_event = british_isles.2012
+			}
+		}
+	}
+}
+
+# (Englisc) Players informed
+british_isles.2012 = {
+	type = character_event
+	title = british_isles.2011.t
+	desc = british_isles.2012.desc
+	theme = culture_change
+	left_portrait = {
+		character = scope:embracer
+		animation = personality_bold
+	}
+
+	option = { # Not norman
+		name = british_isles.2012.a
+		trigger = {
+			NOT = { has_culture = culture:anglo_saxon }
+		}
+	}
+	option = { # Also norman
+		name = british_isles.2012.b
+		trigger = {
+			has_culture = culture:anglo_saxon
+		}
+	}
+}

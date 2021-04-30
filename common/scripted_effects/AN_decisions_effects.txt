@@ -1,0 +1,106 @@
+﻿embrace_englisc_culture_effect = {
+	# Scopes saves for localization
+	root = {
+		save_scope_as = embracer
+	}
+
+	# Prestige Bonus
+	add_prestige = medium_prestige_gain
+
+	#Convert your, and your whole family's, culture
+	set_culture = culture:englisc
+	if = {
+		limit = { any_spouse = { is_landed = no } }
+		every_spouse = {
+			limit = {
+				is_landed = no
+			}
+			set_culture = culture:englisc
+		}
+	}
+	if = {
+		limit = {
+			any_close_family_member = {
+				is_landed = no
+				NOT = { is_spouse_of = root }
+			}
+		}
+		every_close_family_member = {
+			limit = {
+				is_landed = no
+				NOT = { is_spouse_of = root }
+			}
+			custom = all_unlanded_family_members
+			set_culture = culture:englisc
+		}
+	}
+
+	#Convert appropriate vassals, and their family
+	if = {
+		limit = {
+			any_vassal_or_below = {
+				is_ai = yes
+				culture = culture:norse
+				primary_title = {
+					OR = {
+						OR = {
+							de_jure_liege = title:k_england
+							de_jure_liege.de_jure_liege = title:k_england
+							de_jure_liege.de_jure_liege.de_jure_liege = title:k_england
+						}
+						OR = {
+							de_jure_liege = title:k_danelaw
+							de_jure_liege.de_jure_liege = title:k_danelaw
+							de_jure_liege.de_jure_liege.de_jure_liege = title:k_danelaw
+						}
+					}
+				}
+			}
+		}
+		every_vassal_or_below = {
+			custom = embrace_englisc_culture_vassals_custom
+			limit = {
+				is_ai = yes
+				culture = culture:norse
+				primary_title = {
+					OR = {
+						OR = {
+							de_jure_liege = title:k_england
+							de_jure_liege.de_jure_liege = title:k_england
+							de_jure_liege.de_jure_liege.de_jure_liege = title:k_england
+						}
+						OR = {
+							de_jure_liege = title:k_danelaw
+							de_jure_liege.de_jure_liege = title:k_danelaw
+							de_jure_liege.de_jure_liege.de_jure_liege = title:k_danelaw
+						}
+					}
+				}
+			}
+			set_culture = culture:englisc
+		}
+	}
+
+	#Flip Counties
+	every_county_in_region = {
+		region = custom_england
+		custom = embrace_englisc_culture_counties_custom
+		limit = {
+			target_is_de_facto_liege_or_above = root.primary_title
+		}
+		random = {
+			chance = 40
+			set_county_culture = culture:englisc
+		}
+	}
+
+	culture:englisc = {
+		custom_tooltip = decision_embrace_englisc_culture_get_innovations
+		hidden_effect = {
+			get_all_innovations_from = culture:norwegian
+			get_all_innovations_from = culture:swedish
+			get_all_innovations_from = culture:danish
+			get_all_innovations_from = culture:anglo_saxon
+		}
+	}
+}

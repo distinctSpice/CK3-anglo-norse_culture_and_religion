@@ -67,7 +67,7 @@ innovation_hird = {
 			this = culture:swedish
 			this = culture:norwegian
 			this = culture:danish
-            		this = culture:englisc
+			this = culture:englisc
 
 			# West Germanic
 			this = culture:anglo_saxon

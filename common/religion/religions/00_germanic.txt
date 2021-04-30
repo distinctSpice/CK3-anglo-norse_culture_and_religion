@@ -240,10 +240,10 @@
 			reformed_icon = germanic_reformed
 
 			holy_site = AN_jorvik
-			holy_site = orkneyjar
-			holy_site = mon
-			holy_site = dyflin
-			holy_site = reykjavik
+			holy_site = AN_orkneyjar
+			holy_site = AN_mon
+			holy_site = AN_dyflin
+			holy_site = AN_reykjavik
 
 			doctrine = unreformed_faith_doctrine
 
