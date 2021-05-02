@@ -1,10 +1,7 @@
-@hird = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
-@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
-
 innovation_viking_tradition = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	icon = @hird
+	icon = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
 
 	potential = {
 		has_fp1_dlc_trigger = yes
@@ -28,7 +25,7 @@ innovation_viking_tradition = {
 innovation_hird = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	icon = @weapons_and_armor_02
+	icon = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
 
 	potential = {
 		OR = {
@@ -49,4 +46,25 @@ innovation_hird = {
 	unlock_maa = huscarl
 
 	flag = global_maa
+}
+
+innovation_longboats = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	OR = {
+		region = world_europe_north
+		culture = culture:englisc
+	}
+	icon = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"
+
+	modifier = {
+		embarkation_cost_mult = -0.75
+		naval_movement_speed_mult = 0.25
+	}
+
+	custom = unlocks_naval_raiding
+	custom = unlocks_sailable_major_rivers
+
+	flag = global_regional
+	flag = tribal_era_regional
 }

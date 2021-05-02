@@ -5,4 +5,4 @@ tags={
 	"Religion"
 }
 name="Anglo-Norse Culture and Religion"
-supported_version="1.2.*"
+supported_version="1.3.*"

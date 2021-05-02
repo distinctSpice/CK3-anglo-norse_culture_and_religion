@@ -53,11 +53,6 @@
  embrace_englisc_culture_decision_confirm:0 "Embrace Ænglisk Culture"
  decision_embrace_englisc_culture_get_innovations:0 "The Ænglisk [culture|E] gains several Nordic and Anglo-Saxon [innovations|E]"
 
- # Titles
- d_englisc_norse_pagan_reformed_article:0 "the"
- d_englisc_norse_pagan_reformed:0 "Ænglisk Fylkirate"
- d_englisc_norse_pagan_reformed_adj:0 "Ænglisk Norse"
-
  # Cultural Names
  ## Britannia
  cn_bretland:0 "Bretland"

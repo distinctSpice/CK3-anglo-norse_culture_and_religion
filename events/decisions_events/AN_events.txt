@@ -38,7 +38,6 @@ british_isles.2011 = {
 						has_culture_group = culture_group:west_germanic_group
 						has_culture_group = culture_group:goidelic_group
 						has_culture_group = culture_group:brythonic_group
-						has_culture = culture:anglo_saxon
 					}
 				}
 				trigger_event = british_isles.2012
