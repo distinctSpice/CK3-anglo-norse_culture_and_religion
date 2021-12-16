@@ -1,4 +1,4 @@
-AN_jorvik = {
+﻿AN_jorvik = {
     county = c_north_riding
 
     character_modifier = {

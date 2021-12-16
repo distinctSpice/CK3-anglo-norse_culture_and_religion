@@ -2,10 +2,10 @@
 # Embrace Englisc culture
 ##################################################
 
-british_isles.2011 = {
+AN.1001 = {
 	type = character_event
-	title = british_isles.2011.t
-	desc = british_isles.2011.desc
+	title = AN.1001.t
+	desc = AN.1001.desc
 	theme = culture_change
 	left_portrait = {
 		character = scope:embracer
@@ -18,7 +18,7 @@ british_isles.2011 = {
 	}
 
 	option = {
-		name = british_isles.2011.a
+		name = AN.1001.a
 		embrace_englisc_culture_effect = yes
 		hidden_effect = { # Moved here from embrace_englisc_culture_decision
 			# Send event to other players
@@ -40,31 +40,33 @@ british_isles.2011 = {
 						has_culture_group = culture_group:brythonic_group
 					}
 				}
-				trigger_event = british_isles.2012
+				trigger_event = AN.1002
 			}
 		}
 	}
 }
 
 # (Englisc) Players informed
-british_isles.2012 = {
+AN.1002 = {
 	type = character_event
-	title = british_isles.2011.t
-	desc = british_isles.2012.desc
+	title = AN.1001.t
+	desc = AN.1002.desc
 	theme = culture_change
 	left_portrait = {
 		character = scope:embracer
 		animation = personality_bold
 	}
 
-	option = { # Not norman
-		name = british_isles.2012.a
+	option = { # Not Anglo-Saxon
+		name = AN.1002.a
 		trigger = {
-			NOT = { has_culture = culture:anglo_saxon }
+			NOT = {
+				has_culture = culture:anglo_saxon
+			}
 		}
 	}
-	option = { # Also norman
-		name = british_isles.2012.b
+	option = { # Also Anglo-Saxon
+		name = AN.1002.b
 		trigger = {
 			has_culture = culture:anglo_saxon
 		}

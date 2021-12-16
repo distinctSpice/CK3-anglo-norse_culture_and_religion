@@ -1,4 +1,4 @@
-innovation_viking_tradition = {
+﻿innovation_viking_tradition = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
@@ -12,6 +12,9 @@ innovation_viking_tradition = {
 			this = culture:norwegian
 			this = culture:danish
 			this = culture:englisc
+
+			# Frankish
+			this = culture:norman
 		}
 	}
 
@@ -40,6 +43,9 @@ innovation_hird = {
 			this = culture:anglo_saxon
 			this = culture:old_saxon
 			this = culture:frisian
+
+			# Frankish
+			this = culture:norman
 		}
 	}
 
@@ -51,10 +57,7 @@ innovation_hird = {
 innovation_longboats = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	OR = {
-		region = world_europe_north
-		culture = culture:englisc
-	}
+	region = world_europe_north
 	icon = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"
 
 	modifier = {

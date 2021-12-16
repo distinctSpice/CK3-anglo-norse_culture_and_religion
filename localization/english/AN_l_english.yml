@@ -6,13 +6,13 @@
 
  # Events
  ## Embrace Ænglisk Culture
- british_isles.2011.t:0 "[embracer_former_culture.GetNameNoTooltip|U] no More"
- british_isles.2011.desc:0 "The time when we [embracer.GetCulture.GetCollectiveNounNoTooltip] considered Scandinavia our homeland has long since passed. Our children are born here, surrounded by Saxons, and to them, Scandinavia will only ever be a blurred line beyond the misty shores of Britannia.\n\nAnd, as we make some of the local customs our own, so too the legacy of our culture spreads throughout the Saxon lands, giving birth to a new Ænglisk identity."
- british_isles.2011.a:0 "Long live the Ænglisk!"
+ AN.1001.t:0 "[embracer_former_culture.GetNameNoTooltip|U] no More"
+ AN.1001.desc:0 "The time when we [embracer.GetCulture.GetCollectiveNounNoTooltip] considered Scandinavia our homeland has long since passed. Our children are born here, surrounded by Saxons, and to them, Scandinavia will only ever be a blurred line beyond the misty shores of Britannia.\n\nAnd, as we make some of the local customs our own, so too the legacy of our culture spreads throughout the Saxon lands, giving birth to a new Ænglisk identity."
+ AN.1001.a:0 "Long live the Ænglisk!"
 
- british_isles.2012.desc:0 "The [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], [embracer.GetHerHis] vassals, and [embracer.GetHerHis] whole family has heeded the call of England and embraced Ænglisk culture."
- british_isles.2012.a:0 "It was only a matter of time."
- british_isles.2012.b:0 "Traitors!"
+ AN.1002.desc:0 "The [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], [embracer.GetHerHis] vassals, and [embracer.GetHerHis] whole family has heeded the call of England and embraced Ænglisk culture."
+ AN.1002.a:0 "It was only a matter of time."
+ AN.1002.b:0 "Traitors!"
 
  # Religion
  ## Tenets
@@ -55,9 +55,9 @@
 
  # Cultural Names
  ## Britannia
- cn_bretland:0 "Bretland"
- cn_bretland_adj:0 "Bretisk"
+ AN_bretland:0 "Bretland"
+ AN_bretland_adj:0 "Bretisk"
 
  ## England
- cn_englisc:0 "Ængland"
- cn_englisc_adj:0 "Ænglisk"
+ AN_england:0 "Ængland"
+ AN_england_adj:0 "Ænglisk"
